@@ -1,0 +1,92 @@
+
+#escriba {
+    background-color: #1875B6;
+    height: 500px;
+}
+
+#title-asesoria {
+    display: none;
+}
+
+
+
+#title-asesoria1 {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif;
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#title-asesoria2 {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.p-asesoria {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+
+    #escriba {
+        height: 500px;
+    }
+    
+    #title-asesoria {
+        display: none;
+    }  
+    
+    #title-asesoria1 {
+        grid-column: 1/-1;
+        font-size: 55px;
+        margin-top: 45px;
+    }
+    
+    #title-asesoria2 {
+        grid-column: 1/-1;
+        font-size: 50px;
+    }
+    
+    .p-asesoria {
+        grid-column: 1/-1;
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    #escriba {
+        height: 500px;
+    }
+    
+    #title-asesoria {
+        display: none;
+    }  
+    
+    #title-asesoria1 {
+        grid-column: 1/-1;
+        font-size: 55px;
+        margin-top: 45px;
+    }
+    
+    #title-asesoria2 {
+        grid-column: 1/-1;
+        font-size: 50px;
+    }
+    
+    .p-asesoria {
+        grid-column: 1/-1;
+        font-size: 25px;
+    }
+
+}
